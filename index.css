@@ -44,8 +44,9 @@ body {
 }
 
 .message {
-    margin: 16px;
+    margin: 16px 0;
     font-size: 36px;
+    text-align: center;
 }
 
 .description{
@@ -64,6 +65,32 @@ body {
 .description ol li{
     font-size: 16px;
     margin: 16px 0;
+    text-align: justify;
     
+}
+
+@media screen and (max-width: 1024px) {
+    .result {
+        font-size: 36px;
+        color: lightseagreen;
+        padding: 16px;
+        border: 2px solid red;
+        border-radius: 50px;
+    }
+
+    .message {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .description span{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .description ol li{
+        font-size: 12px;
+    }
+
 }
 
